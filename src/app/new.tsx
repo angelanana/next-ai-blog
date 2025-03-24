@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { generateArticle } from "../lib/openai";
-import MarkdownEditor from "../components/MarkdownEditor";
+import { generateArticle } from "../../lib/openai";
+import MarkdownEditor from "../../components/MarkdownEditor";
 
 export default function NewArticle() {
   const [content, setContent] = useState("");
